@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-3.0
 
 
-//this code is about token  🙌
+//erc20 token.... 🙌
 
 pragma solidity >=0.7.0 <0.9.0;
 
@@ -45,10 +45,7 @@ function transferFrom(address from, address to, uint value) public returns(bool)
     balances[from] -= value;
     emit Transfer(from, to, value);
     return true;
-    
-
-
-}
+    }
 
 function approve(address spender, uint value) public returns(bool) {
     allowance[msg.sender][spender] = value;
