@@ -14,8 +14,7 @@ contract Token {
     uint public decimals = 18;
 
     event Transfer(address indexed from, address indexed to, uint value);
-    event Approval(address indexed owner, address indexed spender, uint value);
-
+    event Approval(address indexed owner, address indexed spender, uint value)
 
     constructor() {
         balances[msg.sender] = totalSupply;
