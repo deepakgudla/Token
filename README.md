@@ -1,1 +1,1 @@
-This token is made using Binance smart chain (Testnet)
+This token is deployed on Binance smart chain (Testnet)
